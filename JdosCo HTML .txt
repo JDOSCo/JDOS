@@ -1,0 +1,118 @@
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDOS Co. - Branding Consultant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #000;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .gold {
+            color: gold;
+        }
+
+        /* Navbar styling */
+        nav {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <header>
+            <h1>JDOS Co. <span class="gold">Branding Consultant</span></h1>
+        </header>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>JDOS Co. is a branding consultant that looks at the holistic health of a brand using AI. We believe in
+                leveraging technology to optimize brand strategies and enhance market presence.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a range of services including:</p>
+            <ul>
+                <li>Brand Analysis</li>
+                <li>Market Research</li>
+                <li>AI-driven Strategy Development</li>
+                <li>Brand Positioning</li>
+                <li>Marketing Campaign Optimization</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you're interested in enhancing your brand's health, feel free to reach out to us:</p>
+            <p>Email: info@jdosco.com</p>
+            <p>Phone: 123-456-7890</p>
+        </section>
+    </div>
+
+</body>
+
+</html>
+```
